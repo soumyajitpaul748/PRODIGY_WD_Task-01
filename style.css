@@ -1,0 +1,100 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  color: white;
+  transition: background 0.4s ease;
+  z-index: 1000;
+  padding: 20px 0;
+}
+
+.navbar.scrolled {
+  background-color: #333;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('https://picsum.photos/1600/900') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #ffcc00;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background: #e6b800;
+}
+
+/* Extra Content */
+.content {
+  padding: 100px 20px;
+  background-color: white;
+  text-align: center;
+}
